@@ -70,7 +70,6 @@ body {
 	float: none;
 	text-align: center;
 	margin-top: 1.8em;
-	padding: 1;
 	vertical-align: top;
 	position: static;
 	margin-left: -3.2em;
@@ -115,7 +114,6 @@ body {
 	display: inline-block;
 	width: 12.5%;
 	text-align: center;
-	left: 3;
 }
 
 .contactimg a {
@@ -153,7 +151,6 @@ a.anchor {
 	font-family: 'Raleway', sans-serif;
 	color: white;
 	font-size: 11pt;
-	vertical-align: center;
 }
 
 #resume_list {
