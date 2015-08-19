@@ -43,7 +43,7 @@ body {
 	font-family: 'Raleway', sans-serif;
 	color: white;
 	text-align: center;
-	font-size: 57pt;
+	font-size: 54pt;
 	position: relative;
 	font-weight: 500;
 }
@@ -112,9 +112,8 @@ body {
 
 .contactimg {
 	display: inline-block;
-	width: 12.5%;
+	width: 9em;
 	text-align: center;
-	padding-bottom: .25em;
 }
 
 .contactimg a {
@@ -140,7 +139,6 @@ a.anchor {
 	float: none;
 	margin: auto;
 	margin-top: 1em;
-	margin-left: -1em;
 	padding: 1em;
 	width: 100%;
 	background-color: #52699A;
@@ -158,7 +156,7 @@ a.anchor {
 	list-style-type: none;
 	text-align: center;
 	display: inline-block;
-	margin-left: -.3em;
+	margin-left: -.1em;
 	overflow-x: hidden;
 	float: right;
 	position: absolute;
@@ -180,10 +178,10 @@ a.anchor {
 	color: #578C65;
 	font-weight: 400;
 	clear: both;
-	padding-bottom: 4em;
 	margin-top: -0.25em;
 	text-align: center;
 	margin-left: -25.5em;
+	padding-bottom: 25em;
 }
 
 #resume_list2 li p {
@@ -197,10 +195,10 @@ a.anchor {
 
 #experience {
 	border-left: 5px dashed #314B2C;
-	padding-left: 5.5em;
-	width: 43em;
+	padding-left: 10em;
+	width: 100em;
 	color: #272E2A;
-	font-size: 7.5pt;
+	font-size: 3pt;
 	text-align: left;
 	font-weight: 400;
 	display: inline-block;
@@ -221,7 +219,7 @@ a.anchor {
 
 #click {
 	text-decoration: none;
-	font-size: 13pt;
+	font-size: 11pt;
 	font-family: 'Merriweather', serif;
 	color: #272E2A;
 }
