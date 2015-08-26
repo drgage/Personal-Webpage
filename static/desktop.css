@@ -95,10 +95,15 @@ body {
 	color: #6F9E65;
 }
 
+#nav li a:visited {
+	text-decoration: none;
+}
+
 #nav #sunflower {
 	margin-top: -1.4em;
-	margin-left: -1.95em;
-	position: fixed;
+	margin-left: -.75em;
+	float: center;
+	text-align: center;
 }
 
 .heading {
@@ -154,22 +159,6 @@ a.anchor {
 	font-size: 11pt;
 }
 
-#resume_list {
-	list-style-type: none;
-	text-align: center;
-	display: inline-block;
-	margin-left: -.3em;
-	overflow-x: hidden;
-	float: right;
-	position: absolute;
-	font-size: 16pt;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 500;
-	color: #578C65;
-	padding-top: 0;
-	margin-top: -0.25em;
-}
-
 #resume_list2 {
 	list-style-type: none;
 	width: 20em;
@@ -181,9 +170,9 @@ a.anchor {
 	font-weight: 400;
 	clear: both;
 	padding-bottom: 0em;
-	margin-top: -0.25em;
+	margin-top: -55em;
 	text-align: center;
-	margin-left: -25.5em;
+	margin-left: -27.5em;
 }
 
 #resume_list2 li p {
@@ -197,6 +186,9 @@ a.anchor {
 
 #experience {
 	border-left: 5px dashed #314B2C;
+	padding-top: 0;
+	margin-top: -0.25em;
+	margin-left: 47.5em;
 	padding-left: 5.5em;
 	width: 43em;
 	color: #272E2A;
@@ -204,10 +196,18 @@ a.anchor {
 	text-align: left;
 	font-weight: 400;
 	display: inline-block;
+	overflow-x: hidden;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
 }
 
 #bigger {
 	font-size: 15pt;
+}
+
+#even_bigger {
+	font-size: 16pt;
+	color: #578C65;
 }
 
 #about_me {
@@ -231,5 +231,5 @@ a.anchor {
 }
 
 #grass {
-	margin-top: 10em;
+	margin-top: 11em;
 }
