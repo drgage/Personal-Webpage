@@ -43,7 +43,7 @@ body {
 	font-family: 'Raleway', sans-serif;
 	color: white;
 	text-align: center;
-	font-size: 54pt;
+	font-size: 57pt;
 	position: relative;
 	font-weight: 500;
 }
@@ -95,10 +95,15 @@ body {
 	color: #6F9E65;
 }
 
+#nav li a:visited {
+	text-decoration: none;
+}
+
 #nav #sunflower {
 	margin-top: -1.4em;
-	margin-left: -1.95em;
-	position: fixed;
+	margin-left: -.75em;
+	float: center;
+	text-align: center;
 }
 
 .heading {
@@ -112,8 +117,9 @@ body {
 
 .contactimg {
 	display: inline-block;
-	width: 9em;
+	width: 12.5%;
 	text-align: center;
+	padding-bottom: .25em;
 }
 
 .contactimg a {
@@ -139,6 +145,7 @@ a.anchor {
 	float: none;
 	margin: auto;
 	margin-top: 1em;
+	margin-left: -1em;
 	padding: 1em;
 	width: 100%;
 	background-color: #52699A;
@@ -152,22 +159,6 @@ a.anchor {
 	font-size: 11pt;
 }
 
-#resume_list {
-	list-style-type: none;
-	text-align: center;
-	display: inline-block;
-	margin-left: -.1em;
-	overflow-x: hidden;
-	float: right;
-	position: absolute;
-	font-size: 16pt;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 500;
-	color: #578C65;
-	padding-top: 0;
-	margin-top: -0.25em;
-}
-
 #resume_list2 {
 	list-style-type: none;
 	width: 20em;
@@ -177,11 +168,11 @@ a.anchor {
 	font-weight: 500;
 	color: #578C65;
 	font-weight: 400;
-	clear: both;
-	margin-top: -0.25em;
+	padding-bottom: 11em;
 	text-align: center;
-	margin-left: -25.5em;
-	padding-bottom: 25em;
+	margin-left: -27.5em;
+	margin-top: -79em;
+	padding-top: 0em;
 }
 
 #resume_list2 li p {
@@ -189,23 +180,34 @@ a.anchor {
 	color: #272E2A;
 	text-align: left;
 	font-weight: 400;
-	clear: both;
 	margin-top: 1.25em;
+	vertical-align: center;
 }
 
 #experience {
 	border-left: 5px dashed #314B2C;
-	padding-left: 10em;
-	width: 100em;
+	padding-top: 0;
+	margin-top: -0.25em;
+	margin-left: 47.5em;
+	padding-left: 5.5em;
+	width: 43em;
 	color: #272E2A;
-	font-size: 3pt;
+	font-size: 7.5pt;
 	text-align: left;
 	font-weight: 400;
 	display: inline-block;
+	overflow-x: hidden;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
 }
 
 #bigger {
 	font-size: 15pt;
+}
+
+#even_bigger {
+	font-size: 16pt;
+	color: #578C65;
 }
 
 #about_me {
@@ -219,7 +221,7 @@ a.anchor {
 
 #click {
 	text-decoration: none;
-	font-size: 11pt;
+	font-size: 13pt;
 	font-family: 'Merriweather', serif;
 	color: #272E2A;
 }
