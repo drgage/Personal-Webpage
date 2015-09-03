@@ -1,5 +1,19 @@
 body {
+	overflow-x: hidden;
+}
+
+#text_area {
 	background-color: #EDF7FC;
+	outline-width: 0;
+	width: 100%;
+	z-index: -400;
+	left: 0;
+	right: 0;
+	position: absolute;
+	text-align: center;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 100%;
 }
 
 #nav {
@@ -12,6 +26,7 @@ body {
 	width: 100%;
 	box-shadow: 1px 1px 1px 1px #65789D;
 	text-align: center;
+	overflow-x: hidden;
 }
 
 #navwrap {
@@ -60,6 +75,27 @@ body {
 	text-align: center;
 }
 
+#sideone {
+	overflow-x: hidden;
+	width: 25em;
+	height: 32em;
+	background-color: yellow;
+	margin-left: 10em;
+	text-align: left;
+}
+
+#sidetwo {
+	display: inline-block;
+	width: 20em;
+	padding-left: 5.5em;
+	margin-left: -0.5em;
+	position: absolute;
+	float: right;
+	overflow-x: hidden;
+	border-left: 5px dashed #314B2C;
+	text-align: center;
+}
+
 #footer {
 	float: none;
 	margin: auto;
@@ -77,3 +113,5 @@ body {
 	color: white;
 	font-size: 11pt;
 }
+
+
