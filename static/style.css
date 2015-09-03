@@ -159,6 +159,31 @@ a.anchor {
 	font-size: 11pt;
 }
 
+#resume_list2 {
+	list-style-type: none;
+	width: 20em;
+	max-width: 20em;
+	font-size: 16pt;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	color: #578C65;
+	font-weight: 400;
+	padding-bottom: 4em;
+	text-align: center;
+	margin-left: -27.5em;
+	margin-top: -55em;
+	padding-top: 0em;
+}
+
+#resume_list2 li p {
+	font-size: 13pt;
+	color: #272E2A;
+	text-align: left;
+	font-weight: 400;
+	margin-top: 1.25em;
+	vertical-align: center;
+}
+
 #experience {
 	border-left: 5px dashed #314B2C;
 	padding-top: 0;
@@ -174,31 +199,6 @@ a.anchor {
 	overflow-x: hidden;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
-}
-
-#resume_list2 {
-	list-style-type: none;
-	width: 20em;
-	max-width: 20em;
-	font-size: 16pt;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 500;
-	color: #578C65;
-	font-weight: 400;
-	clear: both;
-	padding-bottom: 4em;
-	text-align: center;
-	margin-left: -27.5em;
-	margin-top: -55em;
-}
-
-#resume_list2 li p {
-	font-size: 13pt;
-	color: #272E2A;
-	text-align: left;
-	font-weight: 400;
-	clear: both;
-	margin-top: 1.25em;
 }
 
 #bigger {
