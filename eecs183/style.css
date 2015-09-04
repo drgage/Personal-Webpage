@@ -1,10 +1,9 @@
 body {
 	overflow-x: hidden;
+	background-color: #EDF7FC;
 }
 
 #text_area {
-	background-color: #EDF7FC;
-	outline-width: 0;
 	width: 100%;
 	z-index: -400;
 	left: 0;
@@ -13,7 +12,7 @@ body {
 	text-align: center;
 	overflow-x: hidden;
 	overflow-y: auto;
-	height: 100%;
+	clear: both;
 }
 
 #nav {
@@ -78,16 +77,34 @@ body {
 #sideone {
 	overflow-x: hidden;
 	width: 25em;
-	height: 32em;
-	background-color: yellow;
-	margin-left: 10em;
+	margin-left: 12em;
 	text-align: left;
+}
+
+#box {
+	border: 1.5px solid #52699A;
+	border-radius: 8px;
+	padding: 1em;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12pt;
+	background-color: white;
+	text-align: left;
+	color: #272E2A;
+}
+
+#box a {
+	text-decoration: none;
+	color: #487240;
+}
+
+#box a:hover {
+	color: #6F9E65;
 }
 
 #sidetwo {
 	display: inline-block;
 	width: 20em;
-	padding-left: 5.5em;
+	padding-left: 2.5em;
 	margin-left: -0.5em;
 	position: absolute;
 	float: right;
@@ -97,21 +114,22 @@ body {
 }
 
 #footer {
-	float: none;
-	margin: auto;
+	bottom: 0;
 	margin-top: 1em;
 	margin-left: -1em;
+	position: absolute;
 	padding: 1em;
 	width: 100%;
 	background-color: #52699A;
 	height: 1.3em;
 	text-align: center;
-	position: static;
-	overflow-y: auto;
-	overflow-x: hidden;
 	font-family: 'Raleway', sans-serif;
 	color: white;
 	font-size: 11pt;
 }
 
+#heading {
+	font-size: 13pt;
+	font-weight: 500;
+}
 
