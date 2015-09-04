@@ -85,11 +85,12 @@ body {
 	border: 1.5px solid #52699A;
 	border-radius: 8px;
 	padding: 1em;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Merriweather Sans', sans-serif;
 	font-size: 12pt;
 	background-color: white;
 	text-align: left;
 	color: #272E2A;
+	font-weight: 300;
 }
 
 #box a {
