@@ -1,10 +1,12 @@
 body {
 	overflow-x: hidden;
+	overflow-y: hidden; 
 	background-color: #EDF7FC;
 }
 
 #text_area {
 	width: 100%;
+	height: 100%;
 	z-index: -400;
 	left: 0;
 	right: 0;
@@ -76,16 +78,17 @@ body {
 
 #sideone {
 	overflow-x: hidden;
-	width: 25em;
-	margin-left: 12em;
+	width: 26em;
+	margin-left: 11em;
 	text-align: left;
+	color: #272E2A;
 }
 
-#box {
-	border: 1.5px solid #52699A;
+.box {
+	border: 1.5px solid #91BFD6;
 	border-radius: 4px;
 	padding: 1em;
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 12pt;
 	background-color: white;
 	text-align: left;
@@ -93,12 +96,12 @@ body {
 	font-weight: 300;
 }
 
-#box a {
+.box a {
 	text-decoration: none;
 	color: #487240;
 }
 
-#box a:hover {
+.box a:hover {
 	color: #6F9E65;
 }
 
@@ -112,12 +115,13 @@ body {
 	overflow-x: hidden;
 	border-left: 5px dashed #314B2C;
 	text-align: center;
-	height: 22em;
+	padding-bottom: 4em;
 }
 
 #footer {
 	bottom: 0;
 	margin-top: 2.5em;
+	margin-bottom: 0em;
 	margin-left: -1em;
 	position: absolute;
 	padding: 1em;
@@ -142,3 +146,19 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
+#even_bigger {
+	font-size: 16pt;
+	color: #578C65;
+	font-family: 'Raleway', sans-serif;
+}
+
+#title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 40pt;
+	font-weight: 400;
+	color: #314B2C;
+}
+
+#top {
+	height: 2em;
+}
