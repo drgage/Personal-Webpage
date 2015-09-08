@@ -1,5 +1,6 @@
 body {
 	overflow-x: hidden;
+	overflow-y: hidden; 
 	background-color: #EDF7FC;
 }
 
@@ -75,19 +76,16 @@ body {
 	clear: both;
 }
 
-.heading {
+.title {
 	font-family: 'Raleway', sans-serif;
+	font-size: 40pt;
+	font-weight: 400;
 	color: #314B2C;
-	text-align: center;
-	font-size: 33pt;
-	position: relative;
-	font-weight: 500;
-	margin-top: 1em;
 }
 
 #footer {
 	bottom: 0;
-	margin-top: 1em;
+	margin-top: 3em;
 	margin-left: -1em;
 	position: absolute;
 	padding: 1em;
@@ -98,21 +96,23 @@ body {
 	font-family: 'Raleway', sans-serif;
 	color: white;
 	font-size: 11pt;
+	vertical-align: center;
 }
 
 #image {
 	display: inline-block;
 	margin-right: 2.5em;
 	border-radius: 4px;
-	margin-left: -19em;
-	border: 1.5px solid #C8E2EE;
+	margin-left: -21.5em;
+	border: 1.5px solid #B6D8E8;
+	margin-bottom: 2.5em;
 }
 
-#box {
-	border: 1.5px solid #C8E2EE;
+.box {
+	border: 1.5px solid #B6D8E8;
 	border-radius: 4px;
 	padding: 1em;
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 12pt;
 	background-color: white;
 	text-align: left;
@@ -127,14 +127,43 @@ body {
 	float: right;
 	overflow-x: hidden;
 	text-align: center;
-	width: 20em;
+	width: 22em;
 }
 
-#box a {
+.box a {
 	text-decoration: none;
 	color: #487240;
+	font-weight: 400;
 }
 
-#box a:hover {
+.box a:hover {
 	color: #6F9E65;
+}
+
+#top {
+	height: 1.75em;
+}
+
+#about_me {
+	font-family: 'Merriweather', serif;
+	font-size: 12pt;
+	width: 12em;
+	color: #272E2A;
+	text-align: center;
+	font-weight: 500;
+}
+
+#heading {
+	font-size: 19pt;
+	font-weight: 500;
+	font-family: 'Raleway', sans-serif;
+	margin-left: -.1em;
+}
+
+#grass {
+	padding-bottom: 3.15em;
+}
+
+#break {
+	height: .4em;
 }
