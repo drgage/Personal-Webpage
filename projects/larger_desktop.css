@@ -101,12 +101,8 @@ body {
 }
 
 #image {
-	display: inline-block;
-	margin-right: 2.5em;
 	border-radius: 4px;
-	margin-left: -21.5em;
 	border: 1.5px solid #B6D8E8;
-	margin-bottom: 2.5em;
 }
 
 .box {
@@ -121,10 +117,16 @@ body {
 	font-weight: 300;
 }
 
+#sideone {
+	display: inline-block;
+	margin-bottom: 2.5em;
+	margin-left: -23em;
+}
+
 #sidetwo {
 	display: inline-block;
-	margin-left: -1.2em;
 	position: absolute;
+	margin-left: -1.2em;
 	float: right;
 	overflow-x: hidden;
 	text-align: center;

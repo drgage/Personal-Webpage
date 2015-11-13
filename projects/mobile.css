@@ -4,6 +4,12 @@ body {
 	background-color: #EDF7FC;
 }
 
+.zoom {
+	-moz-transform: scale(0.4, 0.4); /* Moz-browsers */
+    zoom: 0.4; /* Other non-webkit browsers */
+    zoom: 40%; /* Webkit browsers */
+}
+
 #nav {
 	background-color: white;
 	position: fixed;
@@ -34,7 +40,7 @@ body {
 
 #nav li {
 	display: inline-block;
-	width: 9%;
+	width: 15%;
 	list-style-type: none;
 	text-align: center;
 	position: static;
@@ -88,7 +94,7 @@ body {
 	margin: auto;
 	margin-top: 3em;
 	margin-left: -1.55em;
-	position: absolute;
+	position: fixed;
 	padding: 1em;
 	width: 100%;
 	background-color: #52699A;
@@ -106,7 +112,8 @@ body {
 	border-radius: 4px;
 	margin-left: -21.5em;
 	border: 1.5px solid #B6D8E8;
-	margin-bottom: 2.5em;
+	margin-bottom: 10em;
+	margin-top: 3em;
 }
 
 .box {
@@ -129,6 +136,7 @@ body {
 	overflow-x: hidden;
 	text-align: center;
 	width: 22em;
+	padding-top: 3em;
 }
 
 .box a {
@@ -147,8 +155,8 @@ body {
 
 #about_me {
 	font-family: 'Merriweather', serif;
-	font-size: 12pt;
-	width: 12em;
+	font-size: 8pt;
+	width: 8em;
 	color: #272E2A;
 	text-align: center;
 	font-weight: 500;
@@ -162,7 +170,7 @@ body {
 }
 
 #grass {
-	padding-bottom: 3em;
+	padding-bottom: 6em;
 }
 
 #break {
