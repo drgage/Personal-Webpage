@@ -79,7 +79,7 @@ body {
 #sideone {
 	overflow-x: hidden;
 	width: 26em;
-	margin-left: -2em;
+	margin-left: 26.7em;
 	text-align: left;
 	color: #272E2A;
 	display: inline-block;
@@ -112,12 +112,12 @@ body {
 #sidetwo {
 	width: 25em;
 	padding-left: 2.5em;
-	margin-right: 3em;
+	margin-right: 32.5em;
 	float: right;
 	overflow-x: hidden;
 	border-left: 5px dashed #314B2C;
 	text-align: center;
-	padding-bottom: 2em;
+	padding-bottom: 7em;
 	margin-top: 1em;
 }
 
@@ -168,5 +168,5 @@ body {
 }
 
 #grass {
-	padding-bottom: 3em;
+	visibility: hidden;
 }

@@ -79,9 +79,13 @@ body {
 #sideone {
 	overflow-x: hidden;
 	width: 26em;
-	margin-left: 11em;
+	margin-right: -2em;
+	margin-left: 6.4em;
 	text-align: left;
 	color: #272E2A;
+	display: inline-block;
+	margin-top: 1.05em;
+	margin-bottom: 3em;
 }
 
 .box {
@@ -99,6 +103,7 @@ body {
 .box a {
 	text-decoration: none;
 	color: #487240;
+	font-weight: 400;
 }
 
 .box a:hover {
@@ -106,23 +111,23 @@ body {
 }
 
 #sidetwo {
-	display: inline-block;
 	width: 25em;
 	padding-left: 2.5em;
-	margin-left: -0.5em;
-	position: absolute;
+	margin-right: 12.6em;
 	float: right;
 	overflow-x: hidden;
 	border-left: 5px dashed #314B2C;
 	text-align: center;
-	padding-bottom: 4em;
+	padding-bottom: 2em;
+	margin-top: 1em;
 }
 
 #footer {
 	bottom: 0;
-	margin-top: 2.5em;
+	margin: auto;
+	margin-top: 2.6em;
 	margin-bottom: 0em;
-	margin-left: -1em;
+	margin-left: -1.55em;
 	position: absolute;
 	padding: 1em;
 	width: 100%;
@@ -161,4 +166,8 @@ body {
 
 #top {
 	height: 2em;
+}
+
+#grass {
+	padding-bottom: 3em;
 }
