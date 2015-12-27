@@ -1,0 +1,63 @@
+<div class="content" style="
+    max-width: 900px;
+"><div id="wrapper1" class="twocolumn" style="
+    /* position: relative; */
+    /* overflow: hidden; */
+">
+
+	        <div id="sideone" class="column" style="
+    /* top: -9px; */
+    margin-top: 0px;
+    position:;
+">
+	        	<center><strong id="even_bigger">Class Information</strong></center><br>
+	        	<div class="box">
+		        	<strong id="heading">EECS 183: Elementary Programming Concepts</strong><br>
+		        	Fall 2015<br>
+	        	</div>
+
+	        	<br>
+
+	        	<div class="box">
+		        	<strong id="heading">Course Website:</strong><br>
+		        	<a href="https://eecs183.org/">eecs183.org</a><br>
+		        </div>
+
+	        	<br>
+	        	
+	        	<div class="box">
+		        	<strong id="heading">Discussion:</strong><br>
+		        	Friday, 10-11AM in 1544 CC Little<br><br>
+		        	<strong id="heading">Office Hours:</strong><br>
+		        	Monday (9/21) from 6:30-8:30pm, Thursday (9/24) from 3-5pm<br>
+	        	</div>
+	        </div><div class="column" id="sidetwo">
+	        	<center><strong id="even_bigger">Section Resources</strong></center><br>
+	        	<div class="box">
+	        		<strong id="heading2">Week 2</strong><br>
+	        		Introduction, I/O, Variable Datatypes, Type Casting, Operators<br><br>
+	        		<a href="/~drgage/eecs183/2/Week_2.pdf">Slides</a> - <a href="/~drgage/eecs183/Super-Mathematics/">Source Code (index)</a> - <a href="main.cpp.zip">Source Code (ZIP)</a>
+	        	</div><br>
+
+	        	<div class="box">
+	        		<strong id="heading2">Week 3</strong><br>
+	        		More on Cin, Functions, Scope<br><br>
+	        		<a href="/~drgage/eecs183/3/Week_3.pdf">Slides</a> - <a href="/~drgage/eecs183/SquareRoot-Source/">Source Code + Possible Solution (index)</a> - <br> <a href="Discussion2challenge.cpp.zip">Source Code (ZIP)</a> - <a href="PossibleSolution.cpp.zip">Possible Solution (ZIP)</a>
+	        	</div><br>
+
+	        	<div class="box">
+	        		<strong id="heading2">Week 4</strong><br>
+	        		Function Practice, Conditionals, While Loops<br><br>
+	        		<a href="/~drgage/eecs183/4/Week_4.pdf">Slides</a>
+	        	</div><br>
+
+	        	<div class="box">
+	        		<strong id="heading2">Week 5</strong><br>
+	        		Loops, Strings<br><br>
+	        	</div><br>
+
+	        	<div class="box">
+	        		<strong id="heading2">Week 6</strong><br>
+	        		Pass by Reference, Arrays<br><br>
+	        	</div><br>
+	        </div></div></div>
