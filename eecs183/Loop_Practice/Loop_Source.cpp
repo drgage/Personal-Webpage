@@ -13,15 +13,31 @@ using namespace std;
 
 int main(){
     
-//printing only odds from 0 - 100
+    //print a 3x3 square of stars first using 3 loops
+    cout << "Printing 3x3 square of stars using 3 loops..." << endl;
+    
+    //your loops here
+    
+    cout << "-----------------------------------------------------" << endl;
+    
+    
+    //now print the same square of stars using nested loops
+    cout << "Printing 3x3 square of stars using nested loops..." << endl;
+    
+    //your nested loops here
+    
+    cout << "-----------------------------------------------------" << endl;
+    
+    
+    //printing only odds from 0 - 100
     
     cout << "Printing only odds from 0 - 100..." << endl;
     
     cout << "with for loop..." << endl;
     
     //your for loop here
-
-
+    
+    
     cout << "-----------------------------------------------------" << endl;
     
     
@@ -29,15 +45,15 @@ int main(){
     
     
     //your while loop here
-
-
+    
+    
     cout << endl << endl;
-
     
     
     
     
-//printing only evens from 0 - 100
+    
+    //printing only evens from 0 - 100
     
     cout << "Printing only evens from 0 - 100..." << endl;
     
@@ -49,11 +65,11 @@ int main(){
     
     
     cout << "------------------------------------------------------" << endl;
-
+    
     cout << "with while loop..." << endl;
     
     //your while loop here
-
+    
     
     cout << endl << endl;
     
@@ -62,10 +78,10 @@ int main(){
     
     
     
-//counting to 1000, printing only the numbers divisible by 50
+    //counting to 1000, printing only the numbers divisible by 50
     
     cout << "Counting to 1000, printing only the numbers divisible by 50..."
-         << endl;
+    << endl;
     
     
     cout << "with for loop..." << endl;
@@ -74,7 +90,7 @@ int main(){
     
     
     cout << "------------------------------------------------------" << endl;
-
+    
     cout << "with while loop..." << endl;
     
     //your while loop here
@@ -84,12 +100,11 @@ int main(){
     
     
     
-
-//printing numbers to 50 by 2s, and then finish to 100 by 5s (want 2, 4, 6
-// 8, 10... 50, 55, 60... 100)
+    
+    //printing numbers to 50s by 2, and then finish to 100 by 5s
     
     cout << "printing numbers to 50s by 2, and then finish to 100 by 5s..."
-         << endl;
+    << endl;
     
     cout << "with for loops..." << endl;
     
@@ -110,7 +125,7 @@ int main(){
     
     
     
-//printing each letter of a string
+    //printing each letter of a string
     
     cout << "printing each letter of a string..." << endl;
     
@@ -118,16 +133,16 @@ int main(){
     cout << "my string is: " << my_string << endl;
     
     cout << "with for loop..." << endl;
-   
+    
     //your for loop here
-
+    
     
     cout << "------------------------------------------------------" << endl;
     
     
     cout << "with while loop..." << endl;
-   
+    
     //your while loop here
-
+    
     
 }

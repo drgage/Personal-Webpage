@@ -1,5 +1,5 @@
 //
-//  Loops.cpp
+//  Loops_solutions.cpp
 //  Discussion Challenge Problems
 //
 //  Created by Leah Bar-On Simmons on 2/2/15.
@@ -13,42 +13,67 @@ using namespace std;
 
 int main(){
     
+    
+    //print a 3x3 square of stars first using 3 loops
+    cout << "Printing 3x3 square of stars using 3 loops..." << endl;
+    
+    for (int i = 0; i < 3; ++i){
+        cout << '*' << ' ';
+    }
+    cout << endl;
+    
+    for (int i = 0; i < 3; ++i){
+        cout << '*' << ' ';
+    }
+    cout << endl;
+    
+    for (int i = 0; i < 3; ++i){
+        cout << '*' << ' ';
+    }
+    cout << endl;
+    
+    cout << "-----------------------------------------------------" << endl;
+    
+    
+    //now print the same square of stars using nested loops
+    cout << "Printing 3x3 square of stars using nested loops..." << endl;
+    for (int i = 0; i < 3; ++i){
+        for (int k = 0; k < 3; ++k){
+            cout << '*' << ' ';
+        }
+        cout << endl;
+    }
+    cout << "-----------------------------------------------------" << endl;
+    
+    
+    
+    
     //printing only odds from 0 - 100
     
     cout << "Printing only odds from 0 - 100..." << endl;
     
     cout << "with for loop..." << endl;
-    
-    //your for loop here
-    
-    for (int i = 0; i <= 100; ++i) {
-        if (i % 2 == 1) {
-            cout << i << " ";
+    //for loop
+    for (int i = 0; i <= 100; ++i){
+        if (i % 2 != 0){
+            cout << i << endl;
         }
     }
-    
     
     cout << "-----------------------------------------------------" << endl;
     
     
     cout << "with while loop..." << endl;
-    
-    
-    //your while loop here
-    
-    int k = 0;
-    while (k <= 100) {
-        if (k % 2 == 1) {
-            cout << k << " ";
+    //while loop
+    int i = 0;
+    while (i <= 100){
+        if (i % 2 != 0){
+            cout << i << endl;
         }
-        ++k;
+        ++i;
     }
     
-    
     cout << endl << endl;
-    
-    
-    
     
     
     //printing only evens from 0 - 100
@@ -57,35 +82,28 @@ int main(){
     
     
     cout << "with for loop..." << endl;
+    //for loop
     
-    //your for loop here
-    
-    for (int i = 0; i <= 100; ++i) {
-        if (i % 2 == 0) {
-            cout << i << " ";
+    for (int k = 0; k <= 100; ++k){
+        if (k % 2 == 0){
+            cout << k << endl;
         }
     }
-    
     
     cout << "------------------------------------------------------" << endl;
     
     cout << "with while loop..." << endl;
+    //while loop
     
-    //your while loop here
-    
-    int m = 0;
-    while (m <= 100) {
-        if (m % 2 == 0) {
-            cout << m << " ";
+    int k = 0;
+    while (k <= 100){
+        if (k % 2 == 0){
+            cout << k << endl;
         }
-        ++m;
+        ++k;
     }
     
     cout << endl << endl;
-    
-    
-    
-    
     
     
     //counting to 1000, printing only the numbers divisible by 50
@@ -95,85 +113,63 @@ int main(){
     
     
     cout << "with for loop..." << endl;
+    //for loop
     
-    //your for loop here
-    
-    for (int i = 0; i <= 1000; ++i) {
-        if (i % 50 == 0) {
-            cout << i << " ";
+    for (int count = 0; count <= 1000; count += 2){
+        if (count % 50 == 0){
+            cout << count << endl;
         }
     }
     
     cout << "------------------------------------------------------" << endl;
     
     cout << "with while loop..." << endl;
+    //while loop
     
-    //your while loop here
-    
-    int j = 0;
-    while (j < 1001) {
-        if (j % 50 == 0) {
-            cout << j << " ";
+    int count = 0;
+    while (count <= 1000){
+        if (count % 50 == 0){
+            cout << count << endl;
         }
-        ++j;
+        count += 2;
     }
     
     cout << endl << endl;
     
+    //printing numbers to 50s by 2, and then finish to 100 by 5s
     
-    
-    
-    //printing numbers to 50 by 2s, and then finish to 100 by 5s (want 2, 4, 6
-    // 8, 10... 50, 55, 60... 100)
-    
-    cout << "printing numbers to 50 by 2s, and then finish to 100 by 5s..."
+    cout << "printing numbers to 50s by 2, and then finish to 100 by 5s..."
     << endl;
     
     cout << "with for loops..." << endl;
+    //for loops
     
-    //your for loops here
-    
-    for (int i = 1; i < 51; ++i) {
-        if (i % 2 == 0) {
-            cout << i << " ";
-        }
+    for (int j = 0; j < 50; j += 2){
+        cout << j << endl;;
     }
     
-    for (int j = 51; j < 101; ++j) {
-        if (j % 5 == 0) {
-            cout << j << " ";
-        }
+    for (int j = 50; j <= 100; j+= 5){
+        cout << j << endl;;
     }
     
     cout << "------------------------------------------------------" << endl;
     
-    cout << "with while loops..." << endl;
+    cout << "with while loop..." << endl;
+    //while loop
     
-    //your while loops here
+    int j = 0;
     
-    int start = 1;
-    int middle = 51;
-    int end = 100;
-    
-    while (start < middle) {
-        if (start % 2 == 0) {
-            cout << start << " ";
-        }
-        ++start;
+    while (j < 50){
+        cout << j << endl;
+        j += 2;
     }
-    
-    while (middle <= end) {
-        if (middle % 5 == 0) {
-            cout << middle << " ";
-        }
-        ++middle;
+    //j stays updated -- because of scope!
+    while (j <= 100){
+        cout << j << endl;
+        j += 5;
     }
-    
     
     cout << endl << endl;
-    
-    
-    
     
     
     //printing each letter of a string
@@ -184,24 +180,24 @@ int main(){
     cout << "my string is: " << my_string << endl;
     
     cout << "with for loop..." << endl;
+    //for loop
     
-    //your for loop here
-    
-    for (int i = 0; i < my_string.length(); ++i) {
-        cout << my_string[i] << " ";
+    //condition must be < to not go off end of array -- remember 0 indexing!
+    for (int l = 0; l < my_string.size(); ++l){
+        cout << my_string[l] << endl;
     }
+    
     
     cout << "------------------------------------------------------" << endl;
     
-    
     cout << "with while loop..." << endl;
+    //while loop
     
-    //your while loop here
+    int l = 0;
     
-    int index = 0;
-    
-    while (index < my_string.length()) {
-        cout << my_string[index] << " ";
-        ++index;
+    while (l < my_string.length()){
+        cout << my_string[l] << endl;
+        ++l;
     }
-
+    
+}
