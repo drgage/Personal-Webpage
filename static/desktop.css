@@ -203,6 +203,17 @@ a.anchor {
 	height: 128em;
 }
 
+#experience a {
+	text-decoration: none;
+	color: #52699A;
+	font-weight: 500;
+}
+
+#experience a:hover {
+	text-decoration: none;
+	color: #709EB6;
+}
+
 #bigger {
 	font-size: 15pt;
 }
